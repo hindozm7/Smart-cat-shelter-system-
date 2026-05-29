@@ -29,7 +29,7 @@ int main() {
     while (true) {
         cout << "\n====================================\n";
         cout << "   🐾 Smart Cat Shelter System 🐾\n";
-        cout << "by Zainab Emad & Hind Abdulrahmen.\n"; // Fixed syntax error here
+        cout << "by Zainab Emad & Hind Abdulrahmen.\n"; // mine and my friends name
         cout << "====================================\n";
         cout << "1. View all available cats\n";
         cout << "2. Search for a specific cat\n";
