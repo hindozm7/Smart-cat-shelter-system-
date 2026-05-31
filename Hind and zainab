@@ -1,0 +1,31 @@
+#include <iostream>
+#include <string>
+using namespace std;
+
+int main() {
+    cout << "====================================\n";
+    cout << "   🐾 Smart Cat Shelter System 🐾\n";
+    cout << "====================================\n";
+
+    string cats[2], breeds[2];
+    int ages[2];
+    double weights[2];
+
+    for (int i = 0; i < 2; i++) {
+        cout << "\nEnter Details for Cat #" << i + 1 << ":\n";
+        cout << "- Name: ";   cin >> cats[i];
+        cout << "- Breed: ";  cin >> breeds[i];
+        cout << "- Age (months): "; cin >> ages[i];
+        cout << "- Weight (kg): ";  cin >> weights[i];
+    }
+
+    cout << "\n====================================\n";
+    for (int i = 0; i < 2; i++) {
+        cout << i + 1 << ". Name: " << cats[i] << " | Breed: " << breeds[i]
+             << " | Age: " << ages[i] << " months | Weight: " << weights[i] << " kg\n";
+    }
+
+    cout << "====================================\n";
+    cout << "Project by: Zainab Emad & Hind Abdulrahmen\n";
+    return 0;
+}
