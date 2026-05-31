@@ -1,21 +1,16 @@
 #include <iostream>
 #include <string>
-#include <limits> // Important library to clear the input buffer and prevent errors
+#include <limits> 
 
 using namespace std;
 
 int main() {
     // Maximum capacity of the shelter
     const int MAX_CATS = 10;
-    
     // Initial number of cats in the shelter
     int currentCatCount = 4;
-
-    // 1D Arrays for names and breeds
     string catNames[MAX_CATS] = {"kaloom", "saadoon", "cookie", "luna"};
     string catBreeds[MAX_CATS] = {"Shirazi", "Siamese", "Himalayan", "Domestic Shorthair"};
-
-    // 2D Nested Array for stats: Column 0 = Age (months), Column 1 = Weight (kg)
     double catStats[MAX_CATS][2] = {
         {12, 4.5},  // Mishmish
         {5,  2.1},  // Lucy
