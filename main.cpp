@@ -12,7 +12,7 @@ int main() {
     int currentCatCount = 4;
 
     // 1D Arrays for names and breeds
-    string catNames[MAX_CATS] = {"Mishmish", "Lucy", "Zatar", "Fluffy"};
+    string catNames[MAX_CATS] = {"kaloom", "saadoon", "cookie", "luna"};
     string catBreeds[MAX_CATS] = {"Shirazi", "Siamese", "Himalayan", "Domestic Shorthair"};
 
     // 2D Nested Array for stats: Column 0 = Age (months), Column 1 = Weight (kg)
